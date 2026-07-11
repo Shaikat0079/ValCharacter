@@ -14,6 +14,10 @@ img{
     max-width: 100%;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .logo{
     display: flex;
@@ -27,7 +31,7 @@ img{
 
 .links{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .links a,.play_btn a{
@@ -45,7 +49,6 @@ img{
 
 
 .play_btn{
-    color: whitesmoke;
     background-color: #ff4654;
     padding: 10px 20px;
     border: 0;
@@ -54,4 +57,15 @@ img{
 
 .play_btn a{
     color: whitesmoke;
+}
+
+.play_btn:hover{
+    background-color: #ba3a46;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
