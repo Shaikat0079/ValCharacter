@@ -73,19 +73,19 @@ nav {
 }
 
 .hero-background {
-  background: linear-gradient(
-    135deg,
-    rgb(255, 70, 84) 0%,
-    rgb(15, 25, 35) 100%
-  );
   margin: 100px 0;
   padding: 100px 0;
+  background: 
+    radial-gradient(circle at center, rgba(255, 70, 84, 0.3) 0%, transparent 70%),
+    rgb(15, 25, 35);
+  border: 1px solid rgba(255, 70, 84, 0.4);
+
 }
 
 .hero {
   margin: 0 auto;
   height: 600px;
-  width: 1100px;
+  width: 1140px;
   background-image: url("https://static.wikia.nocookie.net/valorant/images/3/3a/Closed_Beta_Promo.jpg/revision/latest/scale-to-width-down/1000?cb=20200409115659");
   background-repeat: no-repeat;
   border-image: fill 0
@@ -124,4 +124,52 @@ nav {
 
 .hero p:hover {
   transform: scale(0.95);
+}
+
+.agent-h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.agents{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 500px;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.agent {
+  /* Layout */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  /* Card Aesthetics */
+  background-color: #ff4654;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.1);
+  
+  /* Typography & Contrast */
+  color: #ffffff;
+  
+  /* Smooth Hover Animation */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  /* Sizing (Optional) */
+  width: 100%;
+  max-width: 450px;
+}
+
+/* Hover Effect */
+.agent:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.agent img{
+    width: 350px;
+    border-top-left-radius: 50px;
 }
