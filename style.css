@@ -236,6 +236,7 @@ nav {
   transition: all 0.3s;
   width: 250px;
   height: 400px;
+  border: none;
 }
 
 #exception2 {
@@ -250,7 +251,7 @@ nav {
 }
 
 #exception:hover {
-  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+  box-shadow: 0px 0px 30px 1px rgba(255, 0, 0, 0.3);
 }
 
 .card button{
@@ -266,4 +267,28 @@ nav {
     background-color: #ff4654;
     border: none;
     color: whitesmoke;
+}
+
+.logo-footer{
+    width: 50px;
+    height: 50px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.social{
+    display: flex;
+    gap: 30px;
+}
+
+.copyright{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
