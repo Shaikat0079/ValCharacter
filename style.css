@@ -24,3 +24,22 @@ img{
     height: 50px;
     width: 50px;
 }
+
+.links{
+    display: flex;
+    gap: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    text-decoration-color: #111823;
+    color: #111823;
+}
+
+.links a:hover{
+    background-color: #ff4654;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
