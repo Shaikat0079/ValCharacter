@@ -292,3 +292,11 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
+.ai-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
