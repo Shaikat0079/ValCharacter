@@ -30,7 +30,7 @@ img{
     gap: 10px;
 }
 
-.links a{
+.links a,.play_btn a{
     text-decoration: none;
     text-decoration-color: #111823;
     color: #111823;
@@ -43,3 +43,15 @@ img{
     color: whitesmoke;
 }
 
+
+.play_btn{
+    color: whitesmoke;
+    background-color: #ff4654;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.play_btn a{
+    color: whitesmoke;
+}
